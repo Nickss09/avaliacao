@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #38b9ca;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Responsividade para desktop */
+@media (min-width: 1024px) {
+  .header h1 {
+    font-size: 2.5rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .card {
+    padding: 2rem;
+  }
+
+  .card:hover {
+    transform: scale(1.2);
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
+}
