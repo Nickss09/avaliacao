@@ -6,6 +6,7 @@ Neste projeto, desenvolvi um site para uma loja de luxo (Louis Vuitton), tomando
 ## Passo a Passo
 
 - Inicialização do projeto React
+
 1- Caso seu arquivo não esteja no seu computador, abra o terminal da sua pasta e digite:
 ```bash
   git clone "(adicione o URL do GitHub entre as aspas)"
