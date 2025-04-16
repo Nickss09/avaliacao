@@ -5,7 +5,7 @@
 Neste projeto, desenvolvi um site para uma loja de luxo (Louis Vuitton), tomando como base um projeto anterior feito com **HTML** e **CSS**. Desta vez, utilizei **React.js** com **JavaScript** , sem o uso de outras bibliotecas externas. Separei o site em componentes como Header, Banner, Lista de Produtos, Cards e Footer. Ao aprender e aplicar o React, percebi que ficou muito mais fácil e eficiente editar, organizar e manter o projeto.
 ## Passo a Passo
 
-- Inicialização do projeto React
+- Inicialização do projeto React.
 
 1- Caso seu arquivo não esteja no seu computador, abra o terminal da sua pasta e digite:
 ```bash
@@ -39,10 +39,12 @@ Se não, digite:
 
 (escreva uma mensagem entre as aspas para commitar).
 
-- Criação dos componentes
+- Criação dos componentes.
+
 Eu separei as seções em 5(Header, Banner, ProductList, Cards e Footer) e fiz uma pasta de componentes (components), 2 arquivos para cada seção, um para texto e outro para estilização. Ou seja, passei os códigos para cada arquivo específico, deixando mais fácil a correção dos mesmos.
 
-- Estilização
+- Estilização.
+
 A estilização do site foi feita com CSS externo, criando arquivos `.css` separados para cada componente. Cada componente React tem seu próprio arquivo de estilo, o que ajuda a manter o código mais organizado e fácil de manter.
 
 Por exemplo, para o componente `Banner.jsx`, foi criado um arquivo `Banner.css`. Dentro desse CSS, escrevi os estilos normalmente, como se fosse em um projeto HTML tradicional:
@@ -77,6 +79,7 @@ export default Banner
 Esse processo foi repetido para os outros componentes, como `Header`, `ProductList`, `Card` e `Footer`.
 
 - Lista de produtos.
+
 Para esquematizar os produtos, eu usei um componente dentro de outro(Card dentro do ProductList). Ou seja, eu fiz o componente dos Cards, pedindo as informações cruciais em um produto(Qual é o produto, qual o preço e qual é a imagem):
 
 *Card.jsx*
@@ -129,7 +132,6 @@ Verifiquei se os componentes estavam aparecendo corretamente, como o Banner, os 
 ## Como rodar o Projeto
 
 - Instruções para clonar e rodar o projeto:
-
 ```bash
 git clone "URL"
 (caso não tenha o node_modules) npm install
