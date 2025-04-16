@@ -5,7 +5,7 @@ function Banner(){
     return (
         <>
             <div className="banner">
-                   <img src="https://thewraplabel.com/cdn/shop/products/LV-Drip-Black.png?v=1623906927"
+                   <img src="https://aaautoworks.com/wp-content/uploads/2022/11/LV-BW-01.png"
                    className="img"/>
             </div>
         </>
