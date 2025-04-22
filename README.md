@@ -144,3 +144,6 @@ git add .(ou o nome do arquivo)
 git commit -m "msg"
 git push
 ```
+## Reflexão final.
+- **Desafios**: Compreender como funciona exatamente o salvamento do git, ajustar o site para JavaScript, encontrar uma forma que os componentes funcionassem de forma eficiente.
+- ⁠**Aprendizados**: o git é uma forma bem mais rápida para editar o projeto e salvar (quando se aprende). Muda só algumas coisas do HTML para o JavaScript, como os códigos para importar os componentes. É mais organizado quando separamos em componentes e é mais facil de identificar onde está o erro e o que precisa mudar quando você aprende como usar.
